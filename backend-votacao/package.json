@@ -1,0 +1,15 @@
+{
+  "name": "backend-votacao",
+  "version": "1.0.0",
+  "description": "Backend para votação em tempo real",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "redis": "^4.0.0",
+    "socket.io": "^4.0.0"
+  }
+}
